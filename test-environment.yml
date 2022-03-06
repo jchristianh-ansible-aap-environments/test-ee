@@ -15,8 +15,8 @@ dependencies:
 
 additional_build_steps:
   prepend: |
-    RUN time dnf update -y
-    RUN pip3 install --upgrade pip setuptools
+    RUN cat /etc/os-release
+    RUN uname -a
 
 
 ...

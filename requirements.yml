@@ -3,6 +3,7 @@ collections:
   - name: ansible.posix
   - name: awx.awx
   - name: community.general
-
-
+  - name: ansible.netcommon
+  - name: ansible.tower
+    source: https://conjur.thezengarden.net/api/galaxy/content/rh-certified/
 ...
