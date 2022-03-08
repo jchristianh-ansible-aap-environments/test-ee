@@ -17,6 +17,8 @@ additional_build_steps:
   prepend: |
     RUN cat /etc/os-release
     RUN uname -a
-
+    COPY foo.txt /
+    RUN ls -ltr /foo.txt
+    RUN cat /foo.txt
 
 ...
