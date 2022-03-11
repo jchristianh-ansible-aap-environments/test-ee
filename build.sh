@@ -9,7 +9,7 @@ CF_FILE="context/Containerfile"
 BUILD_TAG="latest"
 EE_TAG="${BUILD_VER}.`date +%m%d`"
 
-PUSH_REMOTE="conjur.thezengarden.net"
+PUSH_REMOTE="hub.thezengarden.net"
 
 
 # CREATE BUILD CONTEXT

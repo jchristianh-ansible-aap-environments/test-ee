@@ -5,5 +5,5 @@ collections:
   - name: community.general
   - name: ansible.netcommon
   - name: ansible.tower
-    source: https://conjur.thezengarden.net/api/galaxy/content/rh-certified/
+    source: https://hub.thezengarden.net/api/galaxy/content/rh-certified/
 ...
